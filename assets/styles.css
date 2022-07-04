@@ -1,0 +1,55 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    padding: 80px;
+    margin: 0;
+    font-size: 50px;
+}
+  
+h2 {
+    font-size: 50px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.yellow {
+    color: #fff;
+    background: #E5E000;
+}
+
+.cover {
+    height: 1080px;
+    background: url('img.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.path {
+    padding: 36px 80px;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.info {
+    padding: 110px 80px 100px;
+    font-size: 50px;
+}
+
+.info p {
+    margin-bottom: 50px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 80px;
+    font-size: 50px;
+}
